@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5ZF-ze-ubw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5ZF-ze-ubw">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -51,14 +51,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Xuo-ki-XCT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="u1l-iX-sUP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="metalBgnd" translatesAutoresizingMaskIntoConstraints="NO" id="w4v-Tk-PNW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainDisplay" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-iL-sTa">
-                                <rect key="frame" x="13" y="23" width="294" height="126"/>
+                                <rect key="frame" x="13" y="23" width="349" height="149.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Fl0-iL-sTa" secondAttribute="height" multiplier="7:3" id="hAj-ab-NDO"/>
                                 </constraints>
@@ -70,71 +70,71 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oC-np-5YN">
-                                <rect key="frame" x="136" y="40" width="46" height="21.5"/>
+                                <rect key="frame" x="136" y="40" width="101" height="21.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-Bold" family="Liquid Crystal" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyk-hI-BeM">
-                                <rect key="frame" x="224" y="40" width="46" height="21.5"/>
+                                <rect key="frame" x="279" y="40" width="46" height="21.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-Bold" family="Liquid Crystal" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Iv-Do-n7Z" userLabel="FANValue">
-                                <rect key="frame" x="28" y="59" width="88" height="38.5"/>
+                                <rect key="frame" x="28" y="71" width="88" height="38.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBold" family="Liquid Crystal" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUz-Rq-gf8" userLabel="LEDValue">
-                                <rect key="frame" x="117" y="59" width="86" height="38.5"/>
+                                <rect key="frame" x="117" y="71" width="141" height="38.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBold" family="Liquid Crystal" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnY-rq-eFw" userLabel="DACValue">
-                                <rect key="frame" x="204" y="59" width="88" height="38.5"/>
+                                <rect key="frame" x="259" y="71" width="88" height="38.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBold" family="Liquid Crystal" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PWM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V76-Mc-05P" userLabel="FAN%">
-                                <rect key="frame" x="52" y="96" width="36" height="15"/>
+                                <rect key="frame" x="52" y="108" width="36" height="15"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBoldItalic" family="Liquid Crystal" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PWM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOA-jk-cA7">
-                                <rect key="frame" x="141" y="96" width="36" height="15"/>
+                                <rect key="frame" x="141" y="108" width="91" height="15"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBoldItalic" family="Liquid Crystal" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xum-Jh-ION" userLabel="DACV">
-                                <rect key="frame" x="229" y="96" width="36" height="15"/>
+                                <rect key="frame" x="284" y="108" width="36" height="15"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBoldItalic" family="Liquid Crystal" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp: 8888°C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy8-jZ-XiD">
-                                <rect key="frame" x="31" y="112" width="132" height="25.5"/>
+                                <rect key="frame" x="31" y="135" width="132" height="25.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-Bold" family="Liquid Crystal" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLE:888888" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LF3-qY-rM4">
-                                <rect key="frame" x="170" y="112" width="114.5" height="25.5"/>
+                                <rect key="frame" x="225" y="135" width="114.5" height="25.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-Bold" family="Liquid Crystal" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gu1-5X-HUf" userLabel="BBTableBgnd">
-                                <rect key="frame" x="26" y="32" width="268" height="105"/>
+                                <rect key="frame" x="26" y="32" width="323" height="128.5"/>
                                 <color key="backgroundColor" red="0.92549019607843142" green="0.5725490196078431" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="32" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="KEP-iM-tjJ" userLabel="BBTable">
-                                <rect key="frame" x="25" y="32" width="268" height="104"/>
+                                <rect key="frame" x="25" y="32" width="323" height="127.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -162,7 +162,7 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00E-Op-t2q" userLabel="onOffBtn">
-                                <rect key="frame" x="11" y="154" width="52.5" height="48"/>
+                                <rect key="frame" x="11" y="177" width="52.5" height="48"/>
                                 <state key="normal" image="BtnNormal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -173,20 +173,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On/Off" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CX-E8-Wk0" userLabel="On/OffLabel">
-                                <rect key="frame" x="13" y="201" width="46" height="14"/>
+                                <rect key="frame" x="13" y="224" width="46" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BenchBudEE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L03-lq-6vL">
-                                <rect key="frame" x="80" y="163" width="114.5" height="36.5"/>
+                                <rect key="frame" x="80" y="186" width="169.5" height="36.5"/>
                                 <fontDescription key="fontDescription" name="DirtyEgo" family="Dirty Ego" pointSize="34"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </label>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zm9-g2-y9Q" userLabel="BLEIndicator">
-                                <rect key="frame" x="206" y="153" width="44" height="49"/>
+                                <rect key="frame" x="261" y="176" width="44" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="WAh-e4-r2w"/>
                                     <constraint firstAttribute="width" constant="44" id="kb6-Uq-3Vg"/>
@@ -201,13 +201,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLE On" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBH-O4-4eL" userLabel="BLE OnLabel">
-                                <rect key="frame" x="207" y="198" width="43" height="14"/>
+                                <rect key="frame" x="262" y="221" width="43" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hok-t2-rDi" userLabel="voiceBtn">
-                                <rect key="frame" x="257" y="154" width="44" height="44"/>
+                                <rect key="frame" x="312" y="177" width="44" height="44"/>
                                 <state key="normal" image="BtnRndNormal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -218,13 +218,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYD-tQ-MRT" userLabel="VoiceLabel">
-                                <rect key="frame" x="264" y="198" width="31" height="14"/>
+                                <rect key="frame" x="319" y="221" width="31" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDC-Ka-dlB" userLabel="g10Btn">
-                                <rect key="frame" x="18" y="210" width="70" height="80"/>
+                                <rect key="frame" x="18" y="233" width="88.5" height="130"/>
                                 <state key="normal" image="G10Off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -235,7 +235,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70z-ty-cOq" userLabel="g100Btn">
-                                <rect key="frame" x="96" y="210" width="70" height="80"/>
+                                <rect key="frame" x="114" y="233" width="88" height="130"/>
                                 <state key="normal" image="G100Off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -246,7 +246,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSh-iy-Ss0" userLabel="g1kBtn">
-                                <rect key="frame" x="174" y="210" width="70" height="80"/>
+                                <rect key="frame" x="210" y="233" width="88.5" height="130"/>
                                 <state key="normal" image="G1kOff">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -257,7 +257,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="es7-g0-7w4" userLabel="relayBtn">
-                                <rect key="frame" x="262" y="232" width="35" height="58"/>
+                                <rect key="frame" x="317" y="280" width="35" height="58"/>
                                 <state key="normal" image="SwitchAlt_off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -268,13 +268,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41b-r5-cbQ">
-                                <rect key="frame" x="263" y="285" width="33" height="14"/>
+                                <rect key="frame" x="318" y="333" width="33" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="898-LU-CSJ" userLabel="CH0Btn">
-                                <rect key="frame" x="257" y="303" width="44" height="44"/>
+                                <rect key="frame" x="312" y="376" width="44" height="44"/>
                                 <state key="normal" image="BtnRndNormal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -285,13 +285,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ch0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvL-3A-AxG" userLabel="Ch0Label">
-                                <rect key="frame" x="268" y="346" width="23" height="14"/>
+                                <rect key="frame" x="323" y="419" width="23" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxH-A0-AAV" userLabel="byPassBtn1">
-                                <rect key="frame" x="222" y="361" width="34" height="55"/>
+                                <rect key="frame" x="277" y="434" width="34" height="55"/>
                                 <state key="normal" image="Bypass_off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -302,13 +302,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ByP1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tef-6R-bmT" userLabel="ByP1Label">
-                                <rect key="frame" x="223" y="411" width="31" height="14"/>
+                                <rect key="frame" x="278" y="484" width="31" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcm-4s-tVy" userLabel="byPassBtn2">
-                                <rect key="frame" x="273" y="361" width="34" height="55"/>
+                                <rect key="frame" x="328" y="434" width="34" height="55"/>
                                 <state key="normal" image="Bypass_off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -319,16 +319,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ByP2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msg-A6-3LE" userLabel="ByP2Label">
-                                <rect key="frame" x="274" y="411" width="31" height="14"/>
+                                <rect key="frame" x="329" y="484" width="31" height="14"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectorBgnd" translatesAutoresizingMaskIntoConstraints="NO" id="bhu-hl-Aa3">
-                                <rect key="frame" x="11" y="299" width="224" height="41"/>
+                                <rect key="frame" x="39" y="372" width="224" height="41"/>
                             </imageView>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCL-Nf-8AV" userLabel="FANBtn">
-                                <rect key="frame" x="18" y="303" width="70" height="44"/>
+                                <rect key="frame" x="46" y="376" width="70" height="44"/>
                                 <state key="normal" image="FanOff">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -339,7 +339,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeX-l2-Mod" userLabel="LEDBtn">
-                                <rect key="frame" x="88" y="303" width="70" height="44"/>
+                                <rect key="frame" x="116" y="376" width="70" height="44"/>
                                 <state key="normal" image="LED_off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -350,7 +350,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqh-cQ-agS" userLabel="DACBtn">
-                                <rect key="frame" x="158" y="303" width="70" height="44"/>
+                                <rect key="frame" x="186" y="376" width="70" height="44"/>
                                 <state key="normal" image="DAC_off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -361,13 +361,13 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SettingDisplay" translatesAutoresizingMaskIntoConstraints="NO" id="IlP-JH-ftR">
-                                <rect key="frame" x="10" y="351" width="204" height="76"/>
+                                <rect key="frame" x="10" y="424" width="259" height="96.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="IlP-JH-ftR" secondAttribute="height" multiplier="51:19" id="kwg-1y-kBV"/>
                                 </constraints>
                             </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kv-sz-M0a" userLabel="FANSetTitle">
-                                <rect key="frame" x="23" y="366" width="39.5" height="21.5"/>
+                                <rect key="frame" x="23" y="439" width="39.5" height="21.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="39.5" id="CBw-1V-njZ"/>
                                     <constraint firstAttribute="height" constant="21.5" id="rjs-CR-4iA"/>
@@ -377,7 +377,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3y-DS-JtV" userLabel="LEDSetTitle">
-                                <rect key="frame" x="23" y="366" width="40" height="21.5"/>
+                                <rect key="frame" x="23" y="439" width="40" height="21.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21.5" id="CVF-MO-ULQ"/>
                                     <constraint firstAttribute="width" constant="40" id="yI4-1U-AeO"/>
@@ -387,7 +387,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOd-Tx-OwP" userLabel="DACSetTitle">
-                                <rect key="frame" x="23" y="366" width="40" height="21.5"/>
+                                <rect key="frame" x="23" y="439" width="40" height="21.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Vvg-sI-HUX"/>
                                     <constraint firstAttribute="height" constant="21.5" id="tkC-eg-eyU"/>
@@ -397,37 +397,37 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ah6-KB-aQk" userLabel="FANSetValue">
-                                <rect key="frame" x="78" y="360" width="70" height="36"/>
+                                <rect key="frame" x="78" y="433" width="125" height="56.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBold" family="Liquid Crystal" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Db0-Q5-Gyg" userLabel="LEDSetValue">
-                                <rect key="frame" x="78" y="360" width="70" height="36"/>
+                                <rect key="frame" x="78" y="433" width="125" height="56.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBold" family="Liquid Crystal" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="888" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xpo-EX-aZR" userLabel="DACSetValue">
-                                <rect key="frame" x="78" y="360" width="70" height="36"/>
+                                <rect key="frame" x="78" y="433" width="125" height="56.5"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBold" family="Liquid Crystal" pointSize="36"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PWM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="238-y7-Db4" userLabel="FANSetUnit">
-                                <rect key="frame" x="165" y="369" width="32.5" height="15"/>
+                                <rect key="frame" x="220" y="442" width="32.5" height="15"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBoldItalic" family="Liquid Crystal" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PWM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeN-Ac-dNa" userLabel="LEDSetUnit">
-                                <rect key="frame" x="165" y="369" width="32.5" height="15"/>
+                                <rect key="frame" x="220" y="442" width="32.5" height="15"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-ExtraBoldItalic" family="Liquid Crystal" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-ZG-PcK" userLabel="DACSetUnit">
-                                <rect key="frame" x="165" y="369" width="32" height="15"/>
+                                <rect key="frame" x="220" y="442" width="32" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="fSg-GX-xfm"/>
                                     <constraint firstAttribute="width" constant="32" id="yBV-4P-VqH"/>
@@ -437,46 +437,46 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfr-tG-mt2" userLabel="settingTitle">
-                                <rect key="frame" x="26" y="376" width="175" height="25.5"/>
+                                <rect key="frame" x="26" y="449" width="230" height="46"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-Bold" family="Liquid Crystal" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itm-MC-w7C" userLabel="valueTitle">
-                                <rect key="frame" x="88" y="398" width="45" height="21.5"/>
+                                <rect key="frame" x="88" y="471" width="100" height="42"/>
                                 <fontDescription key="fontDescription" name="LiquidCrystal-Bold" family="Liquid Crystal" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradatii" translatesAutoresizingMaskIntoConstraints="NO" id="3pL-Yv-bj9">
-                                <rect key="frame" x="33" y="434" width="142" height="31"/>
+                                <rect key="frame" x="33" y="527.5" width="197" height="31"/>
                             </imageView>
                             <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1024" translatesAutoresizingMaskIntoConstraints="NO" id="xFR-Oa-Ymd" userLabel="settingSlider">
-                                <rect key="frame" x="36" y="434" width="138" height="31"/>
+                                <rect key="frame" x="36" y="527.5" width="193" height="31"/>
                                 <connections>
                                     <action selector="settingSldrAct:" destination="5ZF-ze-ubw" eventType="valueChanged" id="VCM-0R-0JL"/>
                                 </connections>
                             </slider>
                             <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="IjG-1q-odS" userLabel="FANSlider">
-                                <rect key="frame" x="36" y="434" width="138" height="31"/>
+                                <rect key="frame" x="36" y="527.5" width="193" height="31"/>
                                 <connections>
                                     <action selector="ADCSldrAct:" destination="5ZF-ze-ubw" eventType="valueChanged" id="sYG-m2-uTk"/>
                                 </connections>
                             </slider>
                             <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bjR-62-2eV" userLabel="LEDSlider">
-                                <rect key="frame" x="36" y="434" width="138" height="31"/>
+                                <rect key="frame" x="36" y="527.5" width="193" height="31"/>
                                 <connections>
                                     <action selector="LEDSldrAct:" destination="5ZF-ze-ubw" eventType="valueChanged" id="pir-Na-dK5"/>
                                 </connections>
                             </slider>
                             <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BlB-HY-sYG" userLabel="DACSlider">
-                                <rect key="frame" x="36" y="434" width="138" height="31"/>
+                                <rect key="frame" x="36" y="527.5" width="193" height="31"/>
                                 <connections>
                                     <action selector="DACSldrAct:" destination="5ZF-ze-ubw" eventType="valueChanged" id="Z0f-Ws-0wg"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnN-4y-0xX" userLabel="selectorBtn">
-                                <rect key="frame" x="222" y="426" width="80" height="48"/>
+                                <rect key="frame" x="277" y="519.5" width="80" height="48"/>
                                 <state key="normal" image="Enter_off4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -665,7 +665,7 @@
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="ADCBtn" destination="HCL-Nf-8AV" id="e02-8T-yr6"/>
                         <outlet property="ADCLbl" destination="Vk2-zX-jkT" id="lYM-Dn-3Wd"/>

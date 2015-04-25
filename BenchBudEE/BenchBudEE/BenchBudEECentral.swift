@@ -66,13 +66,13 @@ class BenchBudEECentral: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
     }
     
     func connectSelectedDevice(peripheral: AnyObject) {
-        BBperipheral = peripheral as CBPeripheral
+        BBperipheral = peripheral as! CBPeripheral
         BBcentral.connectPeripheral(BBperipheral, options: nil)
     }
     
     func transmit() {
         if let characteristic = txCharacteristic {
-            let data = NSData(bytes: buf as [Byte], length: 3)
+            let data = NSData(bytes: buf, length: 3)
             BBperipheral?.writeValue(data, forCharacteristic: characteristic, type: .WithoutResponse)
         }
 
@@ -92,7 +92,7 @@ class BenchBudEECentral: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
             cleanup()
         } else {
             println("Found Service \n")
-            for service in peripheral.services as [CBService]! {
+            for service in peripheral.services as! [CBService]! {
                 println("\(service.description)\n")
                 peripheral.discoverCharacteristics(nil, forService: service)
             }
@@ -105,7 +105,7 @@ class BenchBudEECentral: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
             cleanup()
             return
         } else {
-            for characteristic in service.characteristics as [CBCharacteristic] {
+            for characteristic in service.characteristics as! [CBCharacteristic] {
                 // And check if it's the right one
                 switch characteristic.UUID.UUIDString {
                 case BBSERVICE_UUID:

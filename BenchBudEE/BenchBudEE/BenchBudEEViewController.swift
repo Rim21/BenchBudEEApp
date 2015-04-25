@@ -377,7 +377,7 @@ class BenchBudEEViewController: UIViewController, UITableViewDataSource, UITable
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         
         let cellIdentifier = "Cell"
-        let cell = BBTable.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
+        let cell = BBTable.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! UITableViewCell
         
         // Configure the cell...
         cell.textLabel?.text = bleInstance.bleNames[indexPath.row].name
