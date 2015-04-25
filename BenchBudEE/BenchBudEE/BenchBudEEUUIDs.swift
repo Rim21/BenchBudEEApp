@@ -1,0 +1,18 @@
+//
+//  BenchBudEEUUIDs.swift
+//  BenchBudEE
+//
+//  Created by Rim21 on 1/01/2015.
+//  Copyright (c) 2015 Nathan Rima. All rights reserved.
+//
+
+import CoreBluetooth
+
+let BBSERVICE_UUID = "713D0000-503E-4C75-BA94-3148F18D941E"
+let BB_READ_CHARACTERISTIC_UUID = "713D0002-503E-4C75-BA94-3148F18D941E"
+let BB_WRITE_CHARACTERISTIC_UUID = "713D0003-503E-4C75-BA94-3148F18D941E"
+let NOTIFY_MTU = 20
+
+let BB_ServiceUUID:[AnyObject] = [CBUUID(string: BBSERVICE_UUID), CBUUID(string: "2220")]
+let BB_Read_UUID:[AnyObject] = [CBUUID(string: BB_READ_CHARACTERISTIC_UUID), CBUUID(string: "2221")]
+let BB_Write_UUID = CBUUID(string: BB_WRITE_CHARACTERISTIC_UUID)

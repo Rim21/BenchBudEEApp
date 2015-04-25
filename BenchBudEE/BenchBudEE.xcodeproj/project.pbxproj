@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F19E07F1A5515C9009CD4C2 /* BenchBudEEUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19E07E1A5515C9009CD4C2 /* BenchBudEEUUIDs.swift */; };
+		9F19E0811A5517AD009CD4C2 /* BenchBudEECentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19E0801A5517AD009CD4C2 /* BenchBudEECentral.swift */; };
+		9F2BD8451A53A5B30067C50F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BD8441A53A5B30067C50F /* AppDelegate.swift */; };
+		9F2BD84A1A53A5B30067C50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD8481A53A5B30067C50F /* Main.storyboard */; };
+		9F2BD84C1A53A5B30067C50F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD84B1A53A5B30067C50F /* Images.xcassets */; };
+		9F2BD84F1A53A5B30067C50F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD84D1A53A5B30067C50F /* LaunchScreen.xib */; };
+		9F2BD85B1A53A5B40067C50F /* BenchBudEETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BD85A1A53A5B40067C50F /* BenchBudEETests.swift */; };
+		9F2BD8671A53C5870067C50F /* BenchBudEEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2BD8661A53C5870067C50F /* BenchBudEEViewController.swift */; };
+		9F2BD86E1A53C94F0067C50F /* LiquidCrystal-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD8691A53C94F0067C50F /* LiquidCrystal-Bold.otf */; };
+		9F2BD86F1A53C94F0067C50F /* LiquidCrystal-ExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD86A1A53C94F0067C50F /* LiquidCrystal-ExBold.otf */; };
+		9F2BD8701A53C94F0067C50F /* LiquidCrystal-ExBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD86B1A53C94F0067C50F /* LiquidCrystal-ExBoldItalic.otf */; };
+		9F2BD8711A53C94F0067C50F /* LiquidCrystal-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD86C1A53C94F0067C50F /* LiquidCrystal-Light.otf */; };
+		9F2BD8721A53C94F0067C50F /* LiquidCrystal-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2BD86D1A53C94F0067C50F /* LiquidCrystal-Normal.otf */; };
+		9FD351331A58D9F60021867B /* DIRTYEGO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9FD351321A58D9F60021867B /* DIRTYEGO.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2BD8551A53A5B40067C50F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2BD8371A53A5B30067C50F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2BD83E1A53A5B30067C50F;
+			remoteInfo = BenchBudEE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F19E07E1A5515C9009CD4C2 /* BenchBudEEUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchBudEEUUIDs.swift; sourceTree = "<group>"; };
+		9F19E0801A5517AD009CD4C2 /* BenchBudEECentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchBudEECentral.swift; sourceTree = "<group>"; };
+		9F2BD83F1A53A5B30067C50F /* BenchBudEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenchBudEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2BD8431A53A5B30067C50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2BD8441A53A5B30067C50F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F2BD8491A53A5B30067C50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F2BD84B1A53A5B30067C50F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F2BD84E1A53A5B30067C50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9F2BD8541A53A5B40067C50F /* BenchBudEETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchBudEETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2BD8591A53A5B40067C50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2BD85A1A53A5B40067C50F /* BenchBudEETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchBudEETests.swift; sourceTree = "<group>"; };
+		9F2BD8661A53C5870067C50F /* BenchBudEEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchBudEEViewController.swift; sourceTree = "<group>"; };
+		9F2BD8691A53C94F0067C50F /* LiquidCrystal-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-Bold.otf"; sourceTree = "<group>"; };
+		9F2BD86A1A53C94F0067C50F /* LiquidCrystal-ExBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-ExBold.otf"; sourceTree = "<group>"; };
+		9F2BD86B1A53C94F0067C50F /* LiquidCrystal-ExBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-ExBoldItalic.otf"; sourceTree = "<group>"; };
+		9F2BD86C1A53C94F0067C50F /* LiquidCrystal-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-Light.otf"; sourceTree = "<group>"; };
+		9F2BD86D1A53C94F0067C50F /* LiquidCrystal-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LiquidCrystal-Normal.otf"; sourceTree = "<group>"; };
+		9FD351321A58D9F60021867B /* DIRTYEGO.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIRTYEGO.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2BD83C1A53A5B30067C50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2BD8511A53A5B40067C50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2BD8361A53A5B30067C50F = {
+			isa = PBXGroup;
+			children = (
+				9F2BD8411A53A5B30067C50F /* BenchBudEE */,
+				9F2BD8571A53A5B40067C50F /* BenchBudEETests */,
+				9F2BD8401A53A5B30067C50F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F2BD8401A53A5B30067C50F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BD83F1A53A5B30067C50F /* BenchBudEE.app */,
+				9F2BD8541A53A5B40067C50F /* BenchBudEETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2BD8411A53A5B30067C50F /* BenchBudEE */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BD8441A53A5B30067C50F /* AppDelegate.swift */,
+				9F19E07E1A5515C9009CD4C2 /* BenchBudEEUUIDs.swift */,
+				9F19E0801A5517AD009CD4C2 /* BenchBudEECentral.swift */,
+				9F2BD8661A53C5870067C50F /* BenchBudEEViewController.swift */,
+				9F2BD8481A53A5B30067C50F /* Main.storyboard */,
+				9F2BD84B1A53A5B30067C50F /* Images.xcassets */,
+				9F2BD84D1A53A5B30067C50F /* LaunchScreen.xib */,
+				9F2BD8421A53A5B30067C50F /* Supporting Files */,
+				9F2BD8681A53C9270067C50F /* Font */,
+			);
+			path = BenchBudEE;
+			sourceTree = "<group>";
+		};
+		9F2BD8421A53A5B30067C50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BD8431A53A5B30067C50F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F2BD8571A53A5B40067C50F /* BenchBudEETests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BD85A1A53A5B40067C50F /* BenchBudEETests.swift */,
+				9F2BD8581A53A5B40067C50F /* Supporting Files */,
+			);
+			path = BenchBudEETests;
+			sourceTree = "<group>";
+		};
+		9F2BD8581A53A5B40067C50F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BD8591A53A5B40067C50F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F2BD8681A53C9270067C50F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BD8691A53C94F0067C50F /* LiquidCrystal-Bold.otf */,
+				9F2BD86A1A53C94F0067C50F /* LiquidCrystal-ExBold.otf */,
+				9F2BD86B1A53C94F0067C50F /* LiquidCrystal-ExBoldItalic.otf */,
+				9F2BD86C1A53C94F0067C50F /* LiquidCrystal-Light.otf */,
+				9F2BD86D1A53C94F0067C50F /* LiquidCrystal-Normal.otf */,
+				9FD351321A58D9F60021867B /* DIRTYEGO.TTF */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F2BD83E1A53A5B30067C50F /* BenchBudEE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2BD85E1A53A5B40067C50F /* Build configuration list for PBXNativeTarget "BenchBudEE" */;
+			buildPhases = (
+				9F2BD83B1A53A5B30067C50F /* Sources */,
+				9F2BD83C1A53A5B30067C50F /* Frameworks */,
+				9F2BD83D1A53A5B30067C50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BenchBudEE;
+			productName = BenchBudEE;
+			productReference = 9F2BD83F1A53A5B30067C50F /* BenchBudEE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F2BD8531A53A5B40067C50F /* BenchBudEETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2BD8611A53A5B40067C50F /* Build configuration list for PBXNativeTarget "BenchBudEETests" */;
+			buildPhases = (
+				9F2BD8501A53A5B40067C50F /* Sources */,
+				9F2BD8511A53A5B40067C50F /* Frameworks */,
+				9F2BD8521A53A5B40067C50F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2BD8561A53A5B40067C50F /* PBXTargetDependency */,
+			);
+			name = BenchBudEETests;
+			productName = BenchBudEETests;
+			productReference = 9F2BD8541A53A5B40067C50F /* BenchBudEETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2BD8371A53A5B30067C50F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nathan Rima";
+				TargetAttributes = {
+					9F2BD83E1A53A5B30067C50F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9F2BD8531A53A5B40067C50F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9F2BD83E1A53A5B30067C50F;
+					};
+				};
+			};
+			buildConfigurationList = 9F2BD83A1A53A5B30067C50F /* Build configuration list for PBXProject "BenchBudEE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2BD8361A53A5B30067C50F;
+			productRefGroup = 9F2BD8401A53A5B30067C50F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2BD83E1A53A5B30067C50F /* BenchBudEE */,
+				9F2BD8531A53A5B40067C50F /* BenchBudEETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2BD83D1A53A5B30067C50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2BD84A1A53A5B30067C50F /* Main.storyboard in Resources */,
+				9F2BD86E1A53C94F0067C50F /* LiquidCrystal-Bold.otf in Resources */,
+				9F2BD86F1A53C94F0067C50F /* LiquidCrystal-ExBold.otf in Resources */,
+				9F2BD84F1A53A5B30067C50F /* LaunchScreen.xib in Resources */,
+				9F2BD8711A53C94F0067C50F /* LiquidCrystal-Light.otf in Resources */,
+				9F2BD8701A53C94F0067C50F /* LiquidCrystal-ExBoldItalic.otf in Resources */,
+				9FD351331A58D9F60021867B /* DIRTYEGO.TTF in Resources */,
+				9F2BD84C1A53A5B30067C50F /* Images.xcassets in Resources */,
+				9F2BD8721A53C94F0067C50F /* LiquidCrystal-Normal.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2BD8521A53A5B40067C50F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2BD83B1A53A5B30067C50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F19E0811A5517AD009CD4C2 /* BenchBudEECentral.swift in Sources */,
+				9F2BD8451A53A5B30067C50F /* AppDelegate.swift in Sources */,
+				9F19E07F1A5515C9009CD4C2 /* BenchBudEEUUIDs.swift in Sources */,
+				9F2BD8671A53C5870067C50F /* BenchBudEEViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2BD8501A53A5B40067C50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2BD85B1A53A5B40067C50F /* BenchBudEETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2BD8561A53A5B40067C50F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2BD83E1A53A5B30067C50F /* BenchBudEE */;
+			targetProxy = 9F2BD8551A53A5B40067C50F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F2BD8481A53A5B30067C50F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2BD8491A53A5B30067C50F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F2BD84D1A53A5B30067C50F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2BD84E1A53A5B30067C50F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2BD85C1A53A5B40067C50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F2BD85D1A53A5B40067C50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2BD85F1A53A5B40067C50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BenchBudEE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F2BD8601A53A5B40067C50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BenchBudEE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F2BD8621A53A5B40067C50F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BenchBudEETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BenchBudEE.app/BenchBudEE";
+			};
+			name = Debug;
+		};
+		9F2BD8631A53A5B40067C50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BenchBudEETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BenchBudEE.app/BenchBudEE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2BD83A1A53A5B30067C50F /* Build configuration list for PBXProject "BenchBudEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2BD85C1A53A5B40067C50F /* Debug */,
+				9F2BD85D1A53A5B40067C50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2BD85E1A53A5B40067C50F /* Build configuration list for PBXNativeTarget "BenchBudEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2BD85F1A53A5B40067C50F /* Debug */,
+				9F2BD8601A53A5B40067C50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2BD8611A53A5B40067C50F /* Build configuration list for PBXNativeTarget "BenchBudEETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2BD8621A53A5B40067C50F /* Debug */,
+				9F2BD8631A53A5B40067C50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F2BD8371A53A5B30067C50F /* Project object */;
+}
